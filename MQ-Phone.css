@@ -113,7 +113,7 @@ h6 {
 .modal-content {
     margin: 15% auto; /* 15% from the top and centered */
     width: 90%; /* Could be more or less, depending on screen size */
-    padding: 50px 50px;
+    padding: 50px 20px;
 }
 
 
@@ -163,7 +163,6 @@ h6 {
 .SubHeadings-item {
     font-size: 16px;
     text-align: center;
-    z-index: 1;
     display: inline;
 }
 
