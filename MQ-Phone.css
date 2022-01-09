@@ -1,0 +1,177 @@
+@media (max-width: 575.98px) {
+
+
+h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.5;
+    color: #ff6b00;
+}
+
+h2 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 0;
+    color:white;
+}
+
+h3 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.5;
+    color: lightgrey;
+}
+
+h4 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1.5;
+    color: #ff6b00;
+}
+
+h5 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    line-height: 2.0;
+    color: black;
+    text-align: justify;
+}
+
+h6 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    line-height: 2.0;
+    color: black;
+    text-align: justify;
+}
+
+
+/******************************* NAVBAR ********************************/
+
+.navbar {
+    padding: 15px 10px;
+}
+
+.navbar-logo {
+    position:static;
+}
+
+.navbar-brand {
+    padding-left: 0px;
+    margin-right: auto;
+}
+
+.navbar-toggler {
+    border: 0px;
+    width: 55px;
+    height: 35px;
+}
+
+.navbar-toggler .line{
+    background-color: #ff6b00;
+    width: 100%;
+    float: left;
+    height: 3px;
+    margin-bottom: 5px;
+}
+
+.navbar-nav {
+    display: block;
+    margin-left: auto;
+    line-height: 3;
+    text-align: center;
+    width: 100%;
+}
+
+.nav-item {
+    padding: 0 20px;
+    display: block;
+    margin-left: auto;
+    font-weight: 600;
+    color: #000;
+}
+
+
+/******************************* Home ********************************/
+
+
+
+
+
+#homepageProjects {
+    text-align: center;
+    padding: 100px 20px 0;
+}
+
+
+
+
+.modal-content {
+    margin: 15% auto; /* 15% from the top and centered */
+    width: 90%; /* Could be more or less, depending on screen size */
+    padding: 50px 50px;
+}
+
+
+
+
+
+#contactPage {
+    margin-top: 100px;
+    padding: 100px 20px; 
+    background-color: #e3e5e8; 
+}
+
+.contact-box {
+    text-align: center;
+    margin: 20px 0 50px;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+/******************************* About ********************************/
+
+#aboutMe {
+    margin: 0 25px;
+    padding: 150px 0 50px 0;
+}
+
+/************************************************************** Projects ***************************************************************/
+
+#projectsPage {
+    margin: 0 20px;
+    padding: 200px 0 0 0;
+    text-align: center;
+}
+
+
+
+.portfolioLinks {
+    font-size: 16px;
+}
+
+.SubHeadings-item {
+    font-size: 16px;
+    text-align: center;
+    z-index: 1;
+    display: inline;
+}
+
+#homepageProjects {
+    position: relative;
+    bottom: 180px;
+}
+
+
+
+}

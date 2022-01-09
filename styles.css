@@ -1,0 +1,424 @@
+h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 1.5;
+    color: #ff6b00;
+}
+
+h2 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 0;
+    color:white;
+}
+
+h3 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 0.5;
+    color: lightgrey;
+}
+
+h4 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.5;
+    color: #ff6b00;
+}
+
+h5 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    line-height: 2.0;
+    color: black;
+    text-align: justify;
+}
+
+h6 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    line-height: 2.0;
+    color: black;
+    text-align: justify;
+}
+
+
+
+a {
+    color: #ff6b00;
+}
+
+a:hover {
+    color: #ff6b00;
+}
+
+a:active {
+    color: #ff6b00;
+}
+
+
+
+/******************************* NAVBAR ********************************/
+
+.navbar {
+    margin: 0;
+    padding: 15px 150px;
+        font-size: 18px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 600;
+        color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.navbar-brand {
+    padding-left: 60px;
+    font-size: 18px;
+}
+
+.navbar-logo {
+    position: fixed;
+    padding-left: 0px;
+    z-index: 2;
+}
+
+.navbar-nav {
+    display: inline-block;
+    margin-left: auto;
+    line-height: 1.5;
+    padding-right: 5px;
+}
+
+.nav-item {
+    padding: 0 20px;
+    display: inline-block;
+    margin-left: auto;
+    font-weight: 600;
+    color: #000;
+}
+
+.nav-item:hover {
+    color: #ff6b00;
+    text-decoration: none;
+}
+
+.nav-item-active {
+    padding: 0 20px;
+    display: inline-block;
+    margin-left: auto;
+    font-weight: 600;
+    color: #ff6b00;
+    text-decoration: none;
+}
+
+.nav-item-active:hover {
+    text-decoration: none;
+}
+
+
+/******************************* Footer ********************************/
+#footer {
+    text-align: center;
+    padding: 0 0 50px 0 ;
+}
+
+.footer-icons {
+    color: #ff6b00;
+    margin: 1%;
+    font-size: 20px;
+}
+
+
+
+/************************************************************** HOMEPAGE ***************************************************************/
+/******************************* HomePage Carousel ********************************/
+
+#carouselExampleIndicators {
+    position: relative;
+    top: 65px;
+}
+
+/* .carousel-inner {
+    position: relative;
+    top: 68px;
+} */
+
+.carousel-item {
+    z-index: -1;
+}
+
+.homePageCarouselText {
+    text-align: center;
+    z-index: 1;
+    padding: 17% 0;
+}
+
+
+
+/******************************* HomePage Projects ********************************/
+
+#homepageProjects {
+    text-align: center;
+    padding: 200px 150px 0;
+}
+
+.clickHere {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #575756;
+}
+
+.clickHere:hover {
+    color: #ff6b00;
+    text-decoration: none;
+}
+
+.homepageProjectImagesContainer{
+    width: 100%;
+    margin: 15px 0;
+}
+
+.homepageProjectImages {
+    display: block;
+    width: 100%;
+}
+
+.imageOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 1.5;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    cursor: pointer;
+}
+
+.imageOverlay--blur {
+    backdrop-filter: blur(3px);
+}
+
+.imageOverlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.imageOverlay:hover {
+    opacity: 1;
+}
+
+.imageOverlay:hover > * {
+    transform: translateY(0px);
+}
+
+
+.imageTitle:hover {
+    color: #ff6b00;
+}
+
+
+
+
+/******************************* HomePage Contact ********************************/
+
+#contactPage {
+    margin-top: 100px;
+    padding: 100px 150px; 
+    background-color: #e3e5e8; 
+}
+
+/* .form-control {
+    border-radius: 0px;
+    border-color: #ff6b00;
+    border-width: 2.5px;
+}
+
+.form-control:focus {
+    border-radius: 0px;
+    border-color: #ff6b00;
+    border-width: 2.5px;
+    border-color: #ff6b00;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ff6b00;
+}
+
+.submitButton {
+    background-color: #ff6b00;
+    border-radius: 0px;
+    border-color: #ff6b00;
+    border-width: 2.5px;
+    padding: 4px 40px;
+
+}
+
+.submitButton:hover {
+    background-color: white;
+    border-color: #ff6b00;
+    border-width: 2.5px;
+    color: #ff6b00;
+} */
+
+.contact-box {
+    text-align: center;
+    margin: 100px 0 50px;
+    display: inline-block;
+}
+
+.contact-icon {
+    color: black;
+}
+
+.contact-icon:hover {
+    color: #ff6b00;
+}
+
+
+
+/************************************************************** ABOUT ME ***************************************************************/
+
+#aboutMe {
+    margin: 0 150px;
+    padding: 150px 0 50px 0;
+}
+
+
+
+/************************************************************** Projects ***************************************************************/
+
+
+#projectsPage {
+    margin: 0 150px;
+    padding: 200px 0 0 0;
+    text-align: center;
+}
+
+.portfolioLinks {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #575756;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.portfolioLinks:hover {
+    color: #ff6b00;
+    text-decoration: none;
+}
+
+.SubHeadings-item {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    line-height: 2.0;
+    color: black;
+    text-align: center;
+}
+
+.SubHeadings-item:hover {
+    color: #ff6b00;
+    text-decoration: none;
+
+}
+
+.SubHeadings-item-active {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    line-height: 2.0;
+    font-weight: 600;
+    color: #ff6b00;
+    text-align: center;
+}
+
+#homepageProjects {
+    position: relative;
+    bottom: 180px;
+}
+
+#footerProjects {
+    position: relative;
+    bottom: 180px;
+    text-align: center;
+}
+
+
+/******************************* Pop Up ********************************/
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+}
+  
+/* Modal Content/Box */
+.modal-content {
+    background-color: white;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 50px 100px;
+    width: 70%; /* Could be more or less, depending on screen size */
+    border-radius: 0px;
+    cursor:initial;
+}
+  
+/* The Close Button */
+.close {
+    color: black;
+    float: right;
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: auto;
+    /* display: none; */
+}
+  
+.close:hover,
+.close:focus {
+    color: #ff6b00 !important;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+.projectImage1 {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.projectText {
+    text-align: justify;
+}
+
+video {
+    background-size: contain;
+    display: block;
+    height: auto;
+    margin: 0 auto 20px;
+    width: 100%;
+}
+
+

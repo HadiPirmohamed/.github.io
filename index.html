@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hadi Pirmohamed Architecture</title>
+
+    <!---CSS STYLESSHEET--->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="MQ-Tablet.css">
+    <link rel="stylesheet" href="MQ-Phone.css">
+    
+    <!---GOOGLE FONTS--->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700;900&display=swap" rel="stylesheet">
+    
+    <!---BOOTSTRAP SCRIPTS--->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!---FONT AWSEOME--->
+    <script src="https://kit.fontawesome.com/647dbf746e.js" crossorigin="anonymous"></script>
+  </head>
+
+<body>
+
+    <!---NAVBAR--->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-logo" href="index.html"><img src="Images/H Logo - New2 .png" height="60" alt="Logo"></a>
+        <a class="navbar-brand" href="index.html">Hadi Pirmohamed</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <span class="line"></span> 
+          <span class="line"></span> 
+          <span class="line"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item-active" href="index.html">Home <span class="sr-only"></span></a>
+            <a class="nav-item" href="about.html">About</a>
+            <a class="nav-item" href="projects.html">Projects</a>
+            <a class="nav-item" href="index.html#contactPage">Contact</a>
+          </div>
+        </div>
+      </nav>
+
+
+    
+    <!---Home--->  
+      
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>   
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="Images/Homepage Carousel - Y2 JQ.png" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="Images/Homepage Carousel - Printpac.png" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="Images/Homepage Carousel - Y2 Barcelona Pavillion.png" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="Images/Homepage Carousel - Y2 Urban.png" alt="Third slide">
+          </div>
+          <div class="homePageCarouselText">
+            <h1 class="homeHeading">Hadi Pirmohamed</h1>
+            <h2 class="homeSubheading">MArchD (RIBA Part II) Architecture Student</h2>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+
+
+
+    <!---Projects---> 
+
+
+      <section id="homepageProjects" style="position: relative; top:0">
+        <h1>Check Out My Latest Work!</h1>
+        <a href="projects.html" class="clickHere">- Click Here for More -</a>
+        <br>
+        <br>
+        <div class="row justify-content-center">
+         
+          <div class="homepageProjectImagesContainer col-md-4 col-xs-6">
+            <img class="homepageProjectImages" src="Images/Project Printpac 1.png" alt="Office Renovation">
+              <div class="imageOverlay imageOverlay--blur">
+                 <!-- Trigger/Open The Modal -->
+                 <div class="myBtn_multi imageTitle">Office Renovation</div>
+                 <!-- The Modal 3-->
+                 <div class="modal modal_multi">
+                   <!-- Modal content -->
+                   <div class="modal-content" >
+                     <span class="close close_multi">×</span>
+                     <div class="projectText">
+                      <h4>Office Renovation</h4>
+                      <h3>Freelance Work</h3>
+                      <br>
+                      <br>
+                      <h6>An interior renovation project for a 7000 sq ft office space in Dubai. The project involved redesigning the space for maximum efficiency and creating an enjoyable working environment. The addition of spaces, positioning of rooms and extension of areas were designed for the increase in workforce and to better tackle the harsh summer climate of Dubai. The plan is divided in 3 sections, management (Right), workforce (Middle) and client meetings areas (Left).</h6>
+                      <br>
+                    </div>
+                    <img class="projectImage1" src="Images/Project Printpac 2.png" alt="Entrance Visual">
+                    <img class="projectImage1" src="Images/Project Printpac 3.png" alt="Lobby Visual">
+                    <img class="projectImage1" src="Images/Project Printpac 4.png" alt="Sales Visual">
+                    <img class="projectImage1" src="Images/Project Printpac 5.png" alt="Conference room Visual">
+                    <img class="projectImage1" src="Images/Project Printpac 6.png" alt="Office Visual">
+                    <img class="projectImage1" src="Images/Project Printpac 7.png" alt="Detailed Floorplan">
+                    <img class="projectImage1" src="Images/Project Printpac 8.png" alt="Visual Floorplan">
+                 </div>
+              </div>
+          </div>
+        </div>
+          
+        <div class="homepageProjectImagesContainer col-md-4 col-xs-6">
+            <img class="homepageProjectImages" src="Images/Project Loft Conversion 1.png" alt="Loft Conversion">
+              <div class="imageOverlay imageOverlay--blur">
+                 <!-- Trigger/Open The Modal -->
+                 <div class="myBtn_multi imageTitle">Loft Conversion</div>
+                 <!-- The Modal 3-->
+                 <div class="modal modal_multi">
+                   <!-- Modal content -->
+                   <div class="modal-content">
+                     <span class="close close_multi">×</span>
+                     <div class="projectText">
+                      <h4>Residential Loft Conversion</h4>
+                      <h3>Freelance Work</h3>
+                      <br>
+                      <br>
+                      <h6>An interior renovation and loft conversion for a new-build detached house in Watford. The project consisted of designing a new study, an extended living/dining room, an additional bedroom, en-suite and extra storage space. This was achieved through creating an open plan layout on the ground floor to create an airy atmosphere whilst also allowing space for a 2 person study.  Bedroom 3 was relocated to the loft to create space for a walk-in closet in the master bedroom and a staircase to access the loft. Finally, the loft consisted of bedroom 3 and another master bedroom with a walk-in closet and en-suite. All design considerations where made to ensure the project was affordable and within the clients budget.</h6>
+                      <br>
+                    </div>
+                      <img class="projectImage1" src="Images/Project Loft Conversion 1.1.png" alt="">
+                      <img class="projectImage1" src="Images/Project Loft Conversion 2.png" alt="">
+                      <img class="projectImage1" src="Images/Project Loft Conversion 3.png" alt="">
+                   </div>
+                 </div>
+              </div>
+        </div>
+
+        <div class="homepageProjectImagesContainer col-md-4 col-xs-6">
+          <img class="homepageProjectImages" src="Images/Project JQ1.png" alt="JQ Design Project">
+            <div class="imageOverlay imageOverlay--blur">
+               <!-- Trigger/Open The Modal -->
+               <div class="myBtn_multi imageTitle">JQ Design Project</div>
+               <!-- The Modal 3-->
+               <div class="modal modal_multi">
+                 <!-- Modal content -->
+                 <div class="modal-content">
+                   <span class="close close_multi">×</span>
+                   <div class="projectText">
+                    <h4>Jewellery Quarter Design Project: Connect</h4>
+                    <h3>BSc Architecture (RIBA Part I), Year 3</h3>
+                    <br>
+                    <br>
+                    <h6>A community centre located at the edge of Jewellery Quarter. Connect is a space where the public can learn about the history of the area and learn a new skill (making jewellery/small metal objects). The project was inspired by the area, hence, having the proposal connect with its urban context, exploring connections within the facade materials and most importantly, promoting connection and collaboration of the building users.</h6>
+                    <br>
+                  </div>
+                    <video controls>
+                      <source src="Images/Jewellery Quarter Proposal - Trailer.mp4" type="video/mp4" poster="Images/JQ Video Poster.png">
+                      Your browser does not support this video file.
+                    </video>
+                    <img class="projectImage1" src="Images/Project JQ Visual 1.png" alt="">
+                    <img class="projectImage1" src="Images/Project JQ Visual 2.png" alt="">
+                    <img class="projectImage1" src="Images/Project JQ Visual 3.png" alt="">
+                    <img class="projectImage1" src="Images/Project JQ Visual 4.png" alt="">
+                    <img class="projectImage1" src="Images/Project JQ Design 1.png" alt="">
+                    <img class="projectImage1" src="Images/Project JQ Design 2.png" alt="">
+                    <img class="projectImage1" src="Images/Project JQ Design 3.png" alt="">
+                    <img class="projectImage1" src="Images/Project JQ Design 4.png" alt="">
+                    <img class="projectImage1" src="Images/Project JQ Design 6.png" alt="">
+                    <img class="projectImage1" src="Images/Project JQ Design 5.png" alt="">
+
+                 </div>
+               </div>
+            </div>
+        </div>
+
+        <div class="homepageProjectImagesContainer col-md-4 col-xs-6">
+          <img class="homepageProjectImages" src="Images/Project JQ Construction 1.png" alt="JQ Construction Project">
+            <div class="imageOverlay imageOverlay--blur">
+               <!-- Trigger/Open The Modal -->
+               <div class="myBtn_multi imageTitle">JQ Construction Project</div>
+               <!-- The Modal 3-->
+               <div class="modal modal_multi">
+                 <!-- Modal content -->
+                 <div class="modal-content">
+                   <span class="close close_multi">×</span>
+                   <div class="projectText">
+                    <h4>Jewellery Quarter Construction Project: Double Skin Facade</h4>
+                    <h3>BSc Architecture (RIBA Part I), Year 3</h3>
+                    <br>
+                    <br>
+                    <h6>The double skin facade sits in the building and acts as a buffer zone similar to a trombe wall. The facade's main design features include the perforated brick design to allow light into the building whilst also keeping an element of privacy (the facade is therefore angled to the south). This facade also used brick as its main material to mimic the Jewellery Quarter architectural style in a contemporary fashion.</h6>
+                    <br>
+                  </div>
+                    <img class="projectImage1" src="Images/Project JQ Construction 1.1.png" alt="">
+                    <img class="projectImage1" src="Images/Project JQ Construction 2.png" alt="">
+                    <img class="projectImage1" src="Images/Project JQ Construction 3.png" alt="">
+                    <img class="projectImage1" src="Images/Project JQ Construction 4.png" alt="">
+                    <img class="projectImage1" src="Images/Project JQ Construction 5.png" alt="">
+                 </div>
+               </div>
+            </div>
+        </div>
+
+        <div class="homepageProjectImagesContainer col-md-4 col-xs-6">
+          <img class="homepageProjectImages" src="Images/Project JQ Urban 1.png" alt="JQ Urban Design">
+            <div class="imageOverlay imageOverlay--blur">
+               <!-- Trigger/Open The Modal -->
+               <div class="myBtn_multi imageTitle">JQ Urban Design</div>
+               <!-- The Modal 3-->
+               <div class="modal modal_multi">
+                 <!-- Modal content -->
+                 <div class="modal-content">
+                   <span class="close close_multi">×</span>
+                   <div class="projectText">
+                    <h4>Jewellery Quarter Urban Design</h4>
+                    <h3>BSc Architecture (RIBA Part I), Year 3</h3>
+                    <br>
+                    <br>
+                    <h6>Attracting the public to Birmingham's Jewellery Quarter by prioritising pedestrians, adding nature and creating a reason for people to walk along Ludgate Hill and Church Street. The addition of an educational centre, jewellery retail park, cafe overlooking the canal, nature in the form of green facades, rooftop parks/green roofs and various other additions along the street, making it a popular destination for tourists.</h6>
+                    <br>
+                  </div>
+                    <img class="projectImage1" src="Images/Project JQ Urban 4.jpg" alt="">
+                    <img class="projectImage1" src="Images/Project JQ Urban 1.png" alt="">
+                    <img class="projectImage1" src="Images/Project JQ Urban 2.png" alt="">
+                    <img class="projectImage1" src="Images/Project JQ Urban 3.png" alt="">
+                 </div>
+               </div>
+            </div>
+        </div>
+
+        <div class="homepageProjectImagesContainer col-md-4 col-xs-6">
+          <img class="homepageProjectImages" src="Images/Project Housing.png" alt="Housing Project">
+            <div class="imageOverlay imageOverlay--blur">
+               <!-- Trigger/Open The Modal -->
+               <div class="myBtn_multi imageTitle">Housing Project</div>
+               <!-- The Modal 3-->
+               <div class="modal modal_multi">
+                 <!-- Modal content -->
+                 <div class="modal-content">
+                   <span class="close close_multi">×</span>
+                   <div class="projectText">
+                    <h4>Housing Project</h4>
+                    <h3>BSc Architecture (RIBA Part I), Year 2</h3>
+                    <br>
+                    <br>
+                    <h6>An apartment block located outside Coventry city centre, designed for the average British family. The apartment block consists of 4 apartments, 4 duplex apartments, a library/study room, lounge/games room, underground garage and a rooftop garden.</h6>
+                    <br>
+                  </div>
+                    <img class="projectImage1" src="Images/Project Housing.png" alt="">
+                    <img class="projectImage1" src="Images/Project Housing 2.png" alt="">
+                    <img class="projectImage1" src="Images/Project Housing 3.png" alt="">
+                    <img class="projectImage1" src="Images/Project Housing 4.png" alt="">
+                    <img class="projectImage1" src="Images/Project Housing 5.png" alt="">
+                    <img class="projectImage1" src="Images/Project Housing 6.png" alt="">
+                    <img class="projectImage1" src="Images/Project Housing 7.png" alt="">
+                 </div>
+               </div>
+            </div>
+        </div>
+
+        <div class="homepageProjectImagesContainer col-md-4 col-xs-6">
+          <img class="homepageProjectImages" src="Images/Project Coventry Urban 1.png" alt="Coventry Urban Design">
+            <div class="imageOverlay imageOverlay--blur">
+               <!-- Trigger/Open The Modal -->
+               <div class="myBtn_multi imageTitle">Coventry Urban Design</div>
+               <!-- The Modal 3-->
+               <div class="modal modal_multi">
+                 <!-- Modal content -->
+                 <div class="modal-content">
+                   <span class="close close_multi">×</span>
+                   <div class="projectText">
+                    <h4>Coventry Urban Design</h4>
+                    <h3>BSc Architecture (RIBA Part I), Year 2</h3>
+                    <br>
+                    <br>
+                    <h6>Remodelling a street in Coventry to make the public slow down and spend time, rather than using it for commuting purposes. The long term aim for this area was to create a “hidden gem” tourist spot in the UK as a place of retail and entertainment. For this project, I split the street into 5 sections as listed below.</h6>
+                    <h6><strong>- Bull Yard:</strong> An area filled with cultural restaurants and socialising spaces and includes hourly dancing fountain and light shows.</h6>
+                    <h6><strong>- The Canopy:</strong> An indoor protected shopping street filled with average to high-end brands, with semi-carpeted floors and background music.</h6>
+                    <h6><strong>- The Wedge:</strong> Transforming a semi enclosed dark area into a lively lit up space where people can hangout at their favourite cafes.</h6>
+                    <h6><strong>- Broadgate:</strong> An open space where Coventry University students and families can hangout by using the different activities (Table tennis, pool, chess, "foot pool" etc).</h6>
+                    <h6><strong>- Trinity Street:</strong> Creating a pedestrian friendly shopping street by slowing down traffic through removing bus routes, creating a narrow one-way car lane and adding parking and nature.</h6>
+                    <br>
+                  </div>
+                    <img class="projectImage1" src="Images/Project Coventry Urban 1.png" alt="">
+                    <img class="projectImage1" src="Images/Project Coventry Urban 2.png" alt="">
+                    <img class="projectImage1" src="Images/Project Coventry Urban 3.png" alt="">
+                    <img class="projectImage1" src="Images/Project Coventry Urban 4.png" alt="">
+                    <img class="projectImage1" src="Images/Project Coventry Urban 5.png" alt="">
+                 </div>
+               </div>
+            </div>
+        </div>
+
+        <div class="homepageProjectImagesContainer col-md-4 col-xs-6">
+          <img class="homepageProjectImages" src="Images/Project Coventry Canal 1.png" alt="Coventry Canal Project">
+            <div class="imageOverlay imageOverlay--blur">
+               <!-- Trigger/Open The Modal -->
+               <div class="myBtn_multi imageTitle">Coventry Canal Project</div>
+               <!-- The Modal 3-->
+               <div class="modal modal_multi">
+                 <!-- Modal content -->
+                 <div class="modal-content">
+                   <span class="close close_multi">×</span>
+                   <div class="projectText">
+                    <h4>Coventry Canal Project</h4>
+                    <h3>BSc Architecture (RIBA Part I), Year 1</h3>
+                    <br>
+                    <br>
+                    <h6>A dance and exercise space located on a narrow site overlooking the canal. The project consists of 2 structures which house 3 exercise rooms, a concert hall/auditorium, cafe, 2 massage rooms, changing rooms and an outdoor courtyard for summer activities. </h6>
+                    <br>
+                  </div>
+                    <img class="projectImage1" src="Images/Project Coventry Canal 1.png" alt="">
+                    <img class="projectImage1" src="Images/Project Coventry Canal 2.png" alt="">
+                    <img class="projectImage1" src="Images/Project Coventry Canal 3.png" alt="">
+                    <img class="projectImage1" src="Images/Project Coventry Canal 4.png" alt="">
+                    <img class="projectImage1" src="Images/Project Coventry Canal 5.png" alt="">
+                    <img class="projectImage1" src="Images/Project Coventry Canal 8.png" alt="">
+                    <img class="projectImage1" src="Images/Project Coventry Canal 6.png" alt="">
+                    <img class="projectImage1" src="Images/Project Coventry Canal 7.png" alt="">
+                 </div>
+               </div>
+            </div>
+        </div>
+
+        <div class="homepageProjectImagesContainer col-md-4 col-xs-6">
+          <img class="homepageProjectImages" src="Images/Project Charterhouse 1.png" alt="Coventry Charterhouse">
+            <div class="imageOverlay imageOverlay--blur">
+               <!-- Trigger/Open The Modal -->
+               <div class="myBtn_multi imageTitle">Coventry Charterhouse</div>
+               <!-- The Modal 3-->
+               <div class="modal modal_multi">
+                 <!-- Modal content -->
+                 <div class="modal-content">
+                   <span class="close close_multi">×</span>
+                   <div class="projectText">
+                    <h4>Coventry Charterhouse</h4>
+                    <h3>BSc Architecture (RIBA Part I), Year 1</h3>
+                    <br>
+                    <br>
+                    <h6>An extension to the historic Coventry Charterhouse, where individuals can socialise in the educational space and cafe whilst learning about the history of Coventry. Design features such as the location, building size and design were reflected on during the conceptual stages to ensure the importance of the Charterhouse was kept, whilst also enticing individuals to use the space.</h6>
+                    <br>
+                  </div>
+                    <img class="projectImage1" src="Images/Project Charterhouse 1.png" alt="">
+                    <img class="projectImage1" src="Images/Project Charterhouse 2.png" alt="">
+                    <img class="projectImage1" src="Images/Project Charterhouse 3.png" alt="">
+                    <img class="projectImage1" src="Images/Project Charterhouse 4.png" alt="">
+                    <img class="projectImage1" src="Images/Project Charterhouse 5.png" alt="">
+                 </div>
+               </div>
+            </div>
+        </div>
+
+      </section>
+
+
+
+    <!---Contact---> 
+
+    <section id="contactPage">
+      
+      <h1 style="text-align: center;">Get in Touch</h1>
+      <!-- <form>
+        <div class="row">
+          <div class="form-group col-lg-6">
+            <input type="Name" class="form-control" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Name" required>
+          </div>
+          <div class="form-group col-lg-6">
+            <input type="Email" class="form-control" id="exampleInputEmail1" placeholder="Email" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea type="Message" class="form-control" id="exampleInputMessage1" placeholder="Message" rows="8" required></textarea>
+        </div>
+        <button type="submit" class="submitButton btn btn-primary">Submit</button>
+      </form> -->
+
+
+      <div class=row>
+      
+        <div class="contact-box col-lg-4">
+          <a href="tel:+447756145536"> <i class="fas fa-phone-alt fa-2x contact-icon"> Call</i></a>
+        </div>
+  
+        <div class="contact-box col-lg-4">
+          <a href="https://www.linkedin.com/in/hadi-pirmohamed-15a544134/" target="_blank"> <i class="fas fa-comment-dots fa-2x contact-icon"> Chat</i></a>
+        </div>
+  
+        <div class="contact-box col-lg-4">
+          <a href="mailto:hadi@pirmohamed.com"> <i class="fas fa-envelope fa-2x contact-icon"> Email</i> </a>
+        </div>
+      
+      </div>
+
+
+    </section>
+
+
+
+
+
+    <!---Footer---> 
+    
+    <footer style="margin-top: 50px;" id="footer">
+        <a href="tel:+447756145536"> <i class="fas fa-phone-alt footer-icons"></i> </a>
+        <a href="mailto:hadi@pirmohamed.com"> <i class="fas fa-envelope footer-icons"></i> </a>
+        <!-- <a href="https://www.instagram.com/hadi.pirmohamed_architecture/" target="_blank"> <i class="fab fa-instagram footer-icons"></i> </a> -->
+        <a href="https://www.linkedin.com/in/hadi-pirmohamed-15a544134/" target="_blank"> <i class="fab fa-linkedin-in footer-icons"></i></a>
+      <p>© Copyright 2022 Hadi Pirmohamed</p>
+    </footer>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
+
+
