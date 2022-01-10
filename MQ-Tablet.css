@@ -78,6 +78,7 @@
     float: left;
     height: 3px;
     margin-bottom: 5px;
+    z-index: 1;
 }
 
 .navbar-nav {
@@ -102,12 +103,14 @@
 #carouselExampleIndicators {
     position: relative;
     top: 90px;
+    z-index: 0;
 }
 
 #homepageProjects {
     text-align: center;
     padding: 100px 10px 0;
-
+    position: relative;
+    top: 30px;
 } 
     
 .modal-content {
