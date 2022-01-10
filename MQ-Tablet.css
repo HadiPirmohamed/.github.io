@@ -116,6 +116,16 @@
     padding: 50px 75px;
 }
 
+.contact-box {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.contact-icon {
+    color: black;
+    font-size: 25px;
+}
+
 
 /******************************* About ********************************/
 

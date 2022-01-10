@@ -124,17 +124,19 @@ h6 {
 #contactPage {
     margin-top: 100px;
     padding: 100px 20px; 
-    background-color: #e3e5e8; 
 }
+
+
 
 .contact-box {
     text-align: center;
-    margin: 20px 0 50px;
-    display: inline-block;
+    margin: 20px 0;
 }
 
-
-
+.contact-icon {
+    color: black;
+    font-size: 20px;
+}
 
 
 
