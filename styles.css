@@ -310,6 +310,11 @@ a:active {
     text-align: center;
 }
 
+#Projects {
+    text-align: center;
+    padding: 0 150px 0;
+}
+
 .portfolioLinks {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 500;
@@ -355,7 +360,6 @@ a:active {
 
 #footerProjects {
     position: relative;
-    bottom: 180px;
     text-align: center;
 }
 
